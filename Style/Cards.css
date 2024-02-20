@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card-holder{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 5%;
+    padding: 0 10px 0 10px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.cards{
+    margin-top: 20px;
+    width: 15%;
+    border-radius: 5px;
+    text-align: center;  
+    position: relative;
+    margin-bottom: 50px;
+    height: auto;
+    padding-bottom: 10px;
+    transition: 0.3s;
+    background:whitesmoke;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.cards  .cardtext h3{
+    margin-top: 0;
+    color:#000;
+}
+.cards img{
+    top: 0;
+    height: 150px;
+    width: 100%;
+}
+
+.cards .book-btn{
+    text-decoration: none;
+    padding: 3px 8px;
+    margin-top: 3px;
+    border-radius: 2px;
+    background: blanchedalmond;
+}
+.cards .cardtext h4{
+    margin-bottom: 10px;
+}
+.cards .cardtext h5{
+    color: rgb(8, 53, 65);
+    font-style: italic;
+}
+@media (max-width:450px){
+    
+.card-holder{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0 10px 0 10px;
+}
+.cards{
+    margin-top: 20px;
+    width: 160px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    height: auto;
+    padding-bottom: 10px;
+    background: whitesmoke ;
+    transition: 0.3s;
+}
+
+.cards img{
+    top: 0;
+    height: 100px;
+    width: 100%;
+}
+.cards .book-btn{
+    text-decoration: none;
+    padding: 3px 8px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+.cards .cardtext h4{
+    margin-bottom: 10px;
+}
+.cards .cardtext h5{
+    color: rgb(8, 53, 65);
+}
+}
+
+
+@media (max-width:778px){
+    
+    .card-holder{
+        display: flex;
+        justify-content: space-between;
+        max-width: 1250px;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 0 20px 0 20px;
+    }
+    .cards{  
+        margin-top: 20px;   
+        width: 150px;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+        height: auto;
+        padding-bottom: 10px;
+        transition: 0.3s;
+    }
+    
+    .cards img{
+        top: 0;
+        height: 100px;
+        width: 100%;
+    }
+    .cards .book-btn{
+        text-decoration: none;
+        padding: 3px 8px;
+        margin-top: 3px;
+        border-radius: 5px;
+    }
+    .cards .cardtext h4{
+        margin-bottom: 10px;
+    }
+    .cards .cardtext h5{
+        color: rgb(8, 53, 65);
+    }
+    }

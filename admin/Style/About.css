@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins',sans-serif;
+    background: #ddd;
+    
+}
+.section{
+    width: 100%;
+    min-height: 90vh;
+    background-color:#ddd;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    height: auto;
+    width: 100%;
+
+}
+.content-section .Title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .content h2{
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 20   px;
+}
+
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.content-section .content .button button{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.content-section .content .button{
+    margin-top: 30px;
+}
+
+.content-section .content .button button:hover{
+    background: lightcoral;
+}
+
+.content-section .social{
+    margin-top: 40px;
+}
+
+.content-section .social i{
+    color: #a52a2a;
+    font-size: 30px;
+    padding: 0  8px;
+}
+.content-section .social i:hover{
+    color: rgb(114, 155, 243);
+}
+.team-title h1{
+    font-size: 50px;
+    text-align: center;
+}
+.border{
+    height: 5px;
+    width: 180px;
+    margin: auto;
+    background: brown;
+    margin-top: 10px;
+}
+.teams{
+    text-align: center;
+}
+.Team{
+    max-width: 1300px;
+    margin: auto;
+    padding: 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team{
+    margin: 10px;
+    padding: 22px;
+    max-width: 30%;
+    cursor: pointer;
+    border-radius: 12px;
+    background: rgb(240, 221, 158);
+    transition: 0.4s;
+    box-sizing: border-box;
+
+}
+.team:hover{
+    background: cornflowerblue;
+    border-radius: 12px;
+    transform: translateY(20px);
+}
+.name{
+    padding: 12px;
+    font-weight: bold;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.profession{
+    font-style: italic;
+    background: transparent;
+}
+.about{
+    margin: 20px 0;
+    font-weight: lighter;
+    color: rgb(8, 15, 15);
+    background: transparent;
+
+}
+.social-links{
+    margin: 14px;
+    background: transparent;
+}
+.social-links a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    transition: 0.4s;
+    font-size: 25px;
+}
+.social-links a i{
+    background: transparent;
+}
+.social-links a:hover{
+    color:rgb(86, 49, 223);;
+}
+@media screen and (max-width:768px) {
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .content-section .Title,
+    .content-section .content h2{
+        text-transform: uppercase;
+        font-size: 19px;
+        text-align: center;
+    }
+    .content-section .content h2{
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+    .content-section .content .button{
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .content-section .content .button button:hover{
+        background: lightcoral;
+    }
+    .team{
+        max-width: 80%;
+    }
+}

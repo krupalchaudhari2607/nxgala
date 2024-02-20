@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one{
+    width: 100%;
+    position: relative;
+    height: 30vh;
+    background-repeat: repeat-x;
+}
+.one h2{
+    color: #fff;
+    -webkit-text-stroke: 0.3vw #ddd;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+    font-family: italic;
+}
+
+
+.contactForm {
+    width: 90%;
+    padding: 40px;
+    margin: auto;
+    background: #fff;
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 20px;
+    resize: none;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+    margin: 10px 0;
+}
+form .error-txt{
+    
+	color: #721c24;
+	background: #f8d7da;
+	padding: 8px 10px;
+	text-align: center;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #f5c6cb;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 17px;
+    transform: translateY(-20px);
+}
+.add{
+    width: 30%;
+    padding: 5px;
+    font-size: 30px;
+    background: #19ec12;
+    cursor: pointer;
+}
+
+
+table{
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    margin: auto;
+    }
+    table td,table th{
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    }
+    table th{
+    background: darkblue;
+    color: #fff;
+    }
+    td{
+    cursor: pointer;
+    }
+    td button{
+        padding: 5px 8px;
+    }
+    td button a{
+        text-decoration: none;
+    }
+    td .Accept:hover{
+        background: blue;
+        color: #fff;
+    }
+    td .Denied:hover{
+        background: red;
+        color: #fff;
+    }
+    table tbody tr:nth-child(even){
+    background: #5bec9d;
+    }
+
+
+    button {
+        padding: 8px 10px;
+        background: #5bec9d;
+        cursor: pointer;
+    }
+    button a{
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+    }

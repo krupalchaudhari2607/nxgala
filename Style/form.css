@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:#f7f7f7;
+}
+.wrapper{
+	background:#fff;
+	width: 100%;
+	border-radius:16px; 
+	box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+	            0 32px 64px -48px rgba(0,0,0,0.5);
+}
+.contact{
+    width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:#f7f7f7;
+}
+.form{
+	padding: 25px 30px;
+}
+.form span{
+	font-size: 25px;
+	font-weight: 600;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.form form{
+	margin: 20px 0;
+
+}
+.form form .error-txt{
+	color: #721c24;
+	background: #f8d7da;
+	padding: 8px 10px;
+	text-align: center;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #f5c6cb;
+}
+.form form .field{
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	margin-bottom: 10px;
+
+
+}
+.form form .field {
+	outline: none;
+}
+.form form .field input,
+select {
+	height: 40px;
+	width: 100%;
+	font-size: 16px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+}
+textarea{
+    resize: none;
+	height: 100px;
+	width: 100%;
+	font-size: 16px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+}
+
+.form form .btn:hover{
+
+	background: rgb(130, 100, 240);
+	color: #fff;
+	cursor: pointer;
+
+}
+@media (max-width:778px){
+	.contact{
+		margin-top: 5%;
+	}
+}
